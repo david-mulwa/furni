@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --font-inter:'Inter',sans-serif;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+@layer base {
+    body {
+        @apply font-inter text-black text-base bg-gray-100;
+    }
+    h1{
+        @apply  text-white   text-5xl font-bold;
+    }
+    h2{
+        @apply text-black text-3xl font-bold; 
+    }
+    h3{
+        @apply text-black text-2xl font-bold;
+    }
+    p{
+        @apply  text-gray-500 text-base;
+    }
+    
+    
+}
+
+@layer components {
+    .container {
+        @apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-10 xl:max-w-[87.5rem] max-h-full py-12
+    }
+    .card{
+        @apply block w-full rounded-md border-0 py-16 px-4 m-auto h-auto text-white shadow-sm ring-inset ring-gray-300  focus:ring-inset focus:ring-n-2 sm:max-w-xs sm:text-sm sm:leading-6
+    }
+
+}
