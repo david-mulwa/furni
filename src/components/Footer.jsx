@@ -57,6 +57,76 @@ const Footer = () => {
           </div>
         </form>
       </div>
+      <div className='mt-7 flex flex-wrap  justify-between items-center '>
+        <div className='flex flex-col gap-3 max-w-[45%]'>
+          <h2 className='text-n-1'>Furni.</h2>
+          <p className='text-balance '>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant</p>
+          <div className='flex gap-3'>
+            {socials.map((item)=>(
+              <a key={item.id} href={item.url} target="_blank" className='flex items-center justify-center w-10 h-10 rounded-full transition-colors hover:bg-n-2'>
+                  <img src={item.iconUrl} width={16} height={16} alt={item.title} className='text-white'/>
+                </a>
+            ))}
+          </div>
+        </div>
+
+        <div className='grid gap-4 xl:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 sm:gap-2'>
+          <div>
+            {navigation.map((item)=>(
+              <ul key ={item.id}
+              className='text-gray-400 hover:text-black'
+              >
+                <li><a href={item.url}>{item.title}</a></li>
+              </ul>
+              
+            ))}
+          </div>
+          <div>
+            {know.map((item)=>(
+              <ul key ={item.id}
+              className='text-gray-400 hover:text-black'
+              >
+                <li><a href={item.url}>{item.title}</a></li>
+              </ul>
+              
+            ))}
+          </div>
+          <div>
+            {company.map((item)=>(
+              <ul key ={item.id}
+              className='text-gray-400 hover:text-black'
+              >
+                <li><a href={item.url}>{item.title}</a></li>
+              </ul>
+              
+            ))}
+          </div>
+          <div>
+            {chair.map((item)=>(
+              <ul key ={item.id}
+              className='text-gray-400 hover:text-black'
+              >
+                <li><a href={item.url}>{item.title}</a></li>
+              </ul>
+              
+            ))}
+          </div>
+
+        </div>
+
+      </div>
+      <div className='border-t w-full flex justify-between mt-12 '>
+         <div className='mt-4'>
+            <p>Copyright © {new Date().getFullYear()}.  All rights reserved</p>
+            <p>Designed by David Mulwa</p>
+          </div>
+
+          <div className='flex justify-between gap-4  mt-4 '>
+          <a className='text-n-1/60  hover:text-black' href='#'>Terms $ Conditions</a>  
+          <a className='text-n-1/60  hover:text-black' href='#'>Privacy Policy</a>
+          </div>   
+
+       </div>
       
       
     </Section>
