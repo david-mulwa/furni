@@ -14,11 +14,16 @@ import support from './icons/support.svg'
 import truck from './icons/truck.svg'
 import why from './images/why-choose-us-img.jpg'
 import sofa from './images/sofa.png'
-
+import grid1 from './images/img-grid-1.jpg'
+import grid2 from './images/img-grid-2.jpg'
+import grid3 from './images/img-grid-3.jpg' 
 
 
 
 export {
+    grid1,
+    grid2,
+    grid3,
     sofa,
     why,
     couch,

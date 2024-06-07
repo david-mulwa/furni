@@ -4,6 +4,7 @@ import Team from '../components/Team'
 import LandingPage from '../components/LandingPage';
 import Whyus from '../components/whyus' ;
 import Servicepage from '../components/Servicepage'
+import imgGrid from '../components/imgGrid'
 
 const Home = () => {
   return (
@@ -11,10 +12,12 @@ const Home = () => {
       <LandingPage>Modern Interior Design Studio</LandingPage>
 
       <Team/>
-
+      <imgGrid/>
       <Whyus/>
 
       <Servicepage/>
+
+      
     </Section>
   )
 }
