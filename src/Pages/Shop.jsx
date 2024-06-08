@@ -3,7 +3,9 @@ import Section from '../components/Section'
 
 const Shop = () => {
   return (
-    <Section>Shop</Section>
+    <Section classsName='container  mt-12'>
+      shop
+    </Section>
   )
 }
 

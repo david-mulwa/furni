@@ -207,3 +207,39 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const textimonial=[
+  {
+    id:'0',
+    testimony:'“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”',
+    image:person1,
+    name:'Lawson Arnold',
+    position:'CEO, Co-Founder, XYZ Inc.'
+
+  },
+  {
+    id:'0',
+    testimony:'“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”',
+    image:person2,
+    name:'Jeremy Walker',
+    position:'CEO, Co-Founder, XYZ Inc.'
+
+  },
+  {
+    id:'0',
+    testimony:'“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”',
+    image:person3,
+    name:'Patrik White',
+    position:'CEO, Co-Founder, XYZ Inc.'
+
+  },
+  {
+    id:'0',
+    testimony:'“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”',
+    image:person4,
+    name:'Kathryn Ryan',
+    position:'CEO, Co-Founder, XYZ Inc.'
+
+  },
+  
+]
