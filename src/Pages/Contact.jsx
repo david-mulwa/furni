@@ -23,7 +23,7 @@ const Contact = () => {
 
 
       <form className='flex flex-col items-center justify-center w-full h-auto'>
-        <div className='flex justify-between flex-nowrap gap-11 items-center mb-12 '>
+        <div className='flex justify-between flex-wrap gap-11 items-center mb-12 '>
           <div className='flex gap-3 items-center justify-center'>
             <div className='border p-3 bg-n-1 rounded-lg' >
               <FaLocationArrow className='text-white'/>
