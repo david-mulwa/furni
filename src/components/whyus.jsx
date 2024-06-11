@@ -13,8 +13,8 @@ const whyus = () => {
                 <Servicepage className='grid grid-cols-2 '/>
 
             </div>
-            <div>
-                <img src={why} />
+            <div className='h-auto '>
+                <img src={why}  width={600} className='max-md:hidden max-sm:hidden'/>
             </div>
         </div>
     </Section>

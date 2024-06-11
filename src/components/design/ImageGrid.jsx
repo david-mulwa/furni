@@ -9,12 +9,12 @@ const ImageGrid = () => {
         <div className='relative grid grid-cols-3 '>
           <div className='relative h-auto flex-grow-1 
           '>
-            <img src={grid1} height={800} width={400} className='absolute rounded-md '/>
-            <img src={grid2} height={500} width={290} className='relative left-[19rem] top-[16rem] rounded-md '/>
+            <img src={grid1} className='absolute rounded-md   ' width={600} height={600}/>
+            <img src={grid2} height={500} width={290} className='relative left-[11rem] max-md:left-[10rem] top-[13rem] max-md:top-[14rem] rounded-md '/>
           </div>
             
             
-            <img src={grid3} height={200} width={170} className=' static right-5 rounded-md'/>           
+            <img src={grid3} height={130} width={130} className=' static left-4  max-md:right-8 rounded-md'/>           
         </div>
         
 

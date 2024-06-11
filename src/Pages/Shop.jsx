@@ -1,11 +1,14 @@
 import React from 'react'
-import Section from '../components/Section'
+import LandingPage from '../components/LandingPage';
+import Product from '../components/Product'
 
 const Shop = () => {
   return (
-    <Section classsName='container  mt-12'>
-      shop
-    </Section>
+    < >
+      <LandingPage>Shop</LandingPage>
+      <Product/>
+      <Product className='sm:hidden mb-12'/>
+    </>
   )
 }
 
