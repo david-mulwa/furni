@@ -3,7 +3,7 @@ import LandingPage from '../components/LandingPage'
 import Servicepage from '../components/Servicepage'
 import Product from '../components/Product'
 import Testimonial from '../components/Testimonial'
-
+import Button from '../components/Button'
 const Services = () => {
   return (
     <>
