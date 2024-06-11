@@ -12,6 +12,9 @@ import {
   instagram,
   telegram,
   twitter,
+  prod1,
+  prod2,
+  prod3,
 } from '../assets'
 
 
@@ -208,7 +211,7 @@ export const socials = [
   },
 ];
 
-export const textimonial=[
+export const testimonial=[
   {
     id:'0',
     testimony:'“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”',
@@ -242,4 +245,40 @@ export const textimonial=[
 
   },
   
+]
+
+export const products=[
+  {
+    id:'0',
+    name:'Nordic Chair',
+    price:'$50.00',
+    description:'Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio',
+    image:prod1,
+
+  },
+  {
+    id:'1',
+    name:'Kruzo Aero Chair',
+    price:'$80.00',
+    description:'Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio',
+    image:prod2,
+
+  },
+  {
+    id:'2',
+    name:'Ergonomic Chair',
+    price:'$43',
+    description:'Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio',
+    image:prod3,
+
+  },
+  {
+    id:'1',
+    name:'Kruzo Aero Chair',
+    price:'$70.00',
+    description:'Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio',
+    image:prod2,
+
+  },
+
 ]

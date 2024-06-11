@@ -17,10 +17,15 @@ import sofa from './images/sofa.png'
 import grid1 from './images/grid1.jpg'
 import grid2 from './images/grid2.jpg'
 import grid3 from './images/grid3.jpg' 
-
+import prod1 from './images/product-1.png'
+import prod2 from './images/product-2.png'
+import prod3 from './images/product-3.png'
 
 
 export {
+    prod1,
+    prod2,
+    prod3,
     grid1,
     grid2,
     grid3,

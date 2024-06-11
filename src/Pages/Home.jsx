@@ -6,6 +6,7 @@ import Whyus from '../components/whyus' ;
 import Servicepage from '../components/Servicepage'
 import ImageGrid from '../components/design/ImageGrid'
 import Testimonial from '../components/Testimonial'
+import Product from '../components/Product'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <LandingPage>Modern Interior Design Studio</LandingPage>
 
       <Team/>
+      <Product/>
       <ImageGrid/>
 
       <Servicepage/>
